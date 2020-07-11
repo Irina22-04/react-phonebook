@@ -1,0 +1,1027 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="page-container"
+>
+  <div
+    className="main-header"
+  >
+    Телефонный справочник 
+    <br />
+    ООО "Дети дикой обезьяны"
+  </div>
+  <div
+    className="ui active transition visible inverted dimmer"
+    onClick={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui inverted loader"
+      />
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button"
+    onClick={[Function]}
+  >
+    Все
+  </button>
+  <div
+    className="searchContainer"
+  >
+    <div
+      className="search-buttons"
+    >
+      <div
+        className="alphabet-column"
+      >
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            А
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Б
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            В
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Г
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Д
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Е
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ж
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            З
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            И
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            К
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Л
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            М
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Н
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            О
+          </button>
+        </div>
+      </div>
+      <div
+        className="alphabet-column"
+      >
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            П
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Р
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            С
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Т
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            У
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ф
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Х
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ц
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ч
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ш
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Щ
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Э
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ю
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Я
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui active transition visible inverted dimmer"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui inverted loader"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={1}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={0}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={0}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;
+
+exports[`PageSearch button all should work 1`] = `
+<div
+  className="page-container"
+>
+  <div
+    className="main-header"
+  >
+    Телефонный справочник 
+    <br />
+    ООО "Дети дикой обезьяны"
+  </div>
+  <div
+    className="ui active transition visible inverted dimmer"
+    onClick={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui inverted loader"
+      />
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button"
+    onClick={[Function]}
+  >
+    Все
+  </button>
+  <div
+    className="searchContainer"
+  >
+    <div
+      className="search-buttons"
+    >
+      <div
+        className="alphabet-column"
+      >
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            А
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Б
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            В
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Г
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Д
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Е
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ж
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            З
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            И
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            К
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Л
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            М
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Н
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            О
+          </button>
+        </div>
+      </div>
+      <div
+        className="alphabet-column"
+      >
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            П
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Р
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            С
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Т
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            У
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ф
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Х
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ц
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ч
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ш
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Щ
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Э
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ю
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Я
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui active transition visible inverted dimmer"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui inverted loader"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={1}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={0}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={0}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;
+
+exports[`PageSearch button letter should work 1`] = `
+<div
+  className="page-container"
+>
+  <div
+    className="main-header"
+  >
+    Телефонный справочник 
+    <br />
+    ООО "Дети дикой обезьяны"
+  </div>
+  <div
+    className="ui active transition visible inverted dimmer"
+    onClick={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui inverted loader"
+      />
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button"
+    onClick={[Function]}
+  >
+    Все
+  </button>
+  <div
+    className="searchContainer"
+  >
+    <div
+      className="search-buttons"
+    >
+      <div
+        className="alphabet-column"
+      >
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            А
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Б
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            В
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Г
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Д
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Е
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ж
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            З
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            И
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            К
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Л
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            М
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Н
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            О
+          </button>
+        </div>
+      </div>
+      <div
+        className="alphabet-column"
+      >
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            П
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Р
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            С
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Т
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            У
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ф
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Х
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ц
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ч
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ш
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Щ
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Э
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Ю
+          </button>
+        </div>
+        <div>
+          <button
+            className="ui mini button"
+            onClick={[Function]}
+          >
+            Я
+          </button>
+        </div>
+      </div>
+    </div>
+    <div
+      className="ui active transition visible inverted dimmer"
+      onClick={[Function]}
+    >
+      <div
+        className="content"
+      >
+        <div
+          className="ui inverted loader"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={1}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={0}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={0}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;

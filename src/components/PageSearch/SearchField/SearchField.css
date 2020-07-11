@@ -1,0 +1,28 @@
+.search-field {
+    margin-bottom: 1%;
+    margin-left: 1vw;
+    padding-top: 1%;
+    width: 350px;
+    padding-bottom: 1%;
+    box-sizing: border-box;
+}
+
+.ui.positive.button {
+    background-color: olive;
+}
+
+.search-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.ui.buttons.search-contacts-buttons {
+    margin-top: 20px;
+}
+
+@media (max-width: 480px) {
+    .ui.fluid.left.icon.input {
+        width: 90%;
+    }
+}
+

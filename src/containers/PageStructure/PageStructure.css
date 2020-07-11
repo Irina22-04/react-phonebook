@@ -1,0 +1,18 @@
+.structure {
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.structure-container {
+    width: 60%;
+}
+
+@media (max-width: 1000px) {
+    .structure-page {
+        padding-top: 70px;
+    }
+
+    .structure {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,106 @@
+.contact-wrapper {
+    display: flex;
+    margin-bottom: .5%;
+    font-size: 1.2rem;
+    height: 2.1rem;
+    margin-left: 1vw;
+}
+
+.edit-user-buttons {
+    width: 30%;
+}
+
+.contact-wrapper:hover {
+    background-color: rgba(97, 218, 251, .5);
+}
+
+.user-name {
+    width: 70%;
+    line-height: 1.8rem;
+}
+
+.selected-user {
+    background-color: #61dafb;
+}
+
+.user-exit {
+    opacity: 1;
+}
+
+.user-exit-active {
+    opacity: 0;
+    transform: scale(0.4);
+    transition: opacity 300ms, transform 300ms;
+}
+
+.edit-user-page .ui.button {
+    font-size: .9rem;
+    height: 2.1rem;
+    line-height: .5rem;
+}
+
+.edit-user-page .ui.buttons .or:before {
+    top: 40%;
+}
+
+.delete-user-error {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media (max-width: 1000px) {
+    .page-container {
+        padding-top: 80px;
+    }
+
+    .edit-user-page .ui.button {
+        font-size: .75rem;
+        line-height: .5rem;
+    }
+
+    .delete-user-error {
+        top: -20px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .user-name {
+        font-size: 14px;
+    }
+
+    .user-name {
+        width: 60%;
+    }
+
+    .edit-user-buttons {
+        width: 40%;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-wrapper {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .user-name {
+        text-align: center;
+        width: 100%;
+    }
+
+    .edit-user-buttons {
+        width: 100%;
+        text-align: center;
+    }
+
+    .edit-user-page-button {
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}

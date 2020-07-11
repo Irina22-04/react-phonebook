@@ -1,0 +1,33 @@
+.employees-list {
+    position: sticky;
+    right: 1vw;
+    top: 5vw;
+    padding: 1vw;
+    width: 40%;
+}
+
+.employeer {
+    color: olive;
+    margin-bottom: 4%;
+    font-size: 1.2rem;
+    width: 300px;
+}
+
+@media (max-width: 1000px) {
+    .ui.list {
+        margin-left: 1vw;
+    }
+
+    .ui.list.employees-list {
+        border-top: 1px solid #00b5ad;
+        padding-top: 25px;
+        margin-top: 25px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .employeer {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,48 @@
+.field-header {
+    color: olive;
+    font-size: 1.1rem;
+    margin-top: 1%;
+}
+
+select {
+    line-height: 1.21428571em;
+    height: 37.8889px;
+    border-color: rgba(34, 36, 38, 0.15);
+    color: rgba(0, 0, 0, 0.87);
+    border-radius: .28571429rem;
+    font-family: Lato, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    padding: .67857143em 1em .67857143em 2.67142857em;
+    background: #fff;
+    font-stretch: normal;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+option {
+    color: black;
+}
+
+.form-row {
+    display: flex;
+}
+
+.form-field {
+    margin-right: 5vw;
+    margin-bottom: 20px;
+}
+
+.add-user-button.ui.buttons {
+    margin-top: 2vh;
+}
+
+@media (max-width: 1000px) {
+    .form-row {
+        flex-flow: wrap;
+    }
+}
+
+@media (max-width: 720px) {
+    select {
+        width: 90%;
+    }
+}

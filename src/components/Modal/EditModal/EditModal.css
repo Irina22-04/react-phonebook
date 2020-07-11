@@ -1,0 +1,9 @@
+.edit-structure-input {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.modal-buttons {
+    display: flex;
+    justify-content: center;
+}

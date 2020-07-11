@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="sc-AxjAm ghQxeu folder"
+>
+  <div
+    className="name-wrapper"
+    id={4}
+    onClick={[Function]}
+  >
+    Управление 32
+  </div>
+  <div
+    className="folders-wrapper"
+  />
+</div>
+`;
+
+exports[`PageStructure onClick should work 1`] = `
+<div
+  className="sc-AxjAm ghQxeu folder"
+>
+  <div
+    className="name-wrapper"
+    id={4}
+    onClick={[Function]}
+  >
+    Управление 32
+  </div>
+  <div
+    className="folders-wrapper"
+  />
+</div>
+`;

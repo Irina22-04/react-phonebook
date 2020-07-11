@@ -1,0 +1,102 @@
+.structure {
+    min-height: calc(100vh - 106px);
+}
+
+.ui.dimmer {
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.ui.basic.modal > .content {
+    background-color: #61dafb;
+    color: black;
+    text-align: center;
+}
+
+input[type='checkbox'] {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.custom-checkbox {
+    color: olive;
+    font-size: 1.1rem;
+}
+
+.edit-page-container .field-header {
+    margin-top: 1.5vh;
+}
+
+.checkbox-input {
+    margin-top: 1.5vh;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+input[type=checkbox] + label:before {
+    content: "\2713";
+    color: transparent;
+    display: inline-block;
+    border: 1px solid #ced4da;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    text-align: center;
+    vertical-align: middle;
+    transition: color ease .3s;
+}
+
+input[type=checkbox]:checked + label:before {
+    color: black;
+}
+
+.page-title {
+    font-size: 1.7rem;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.edit-page-container {
+    padding-left: 1vw;
+    padding-bottom: 20px;
+}
+
+.error-span {
+    color: red;
+    position: absolute;
+    display: block;
+}
+
+.star-span {
+    color: red;
+}
+
+.hint {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+@media (max-width: 720px) {
+    .edit-page-container .form-row {
+        flex-wrap: wrap;
+    }
+
+    .edit-page-container {
+        padding-left: 2vw;
+    }
+}
+
+@media (max-width: 480px) {
+    select {
+        width: 90%;
+    }
+
+    .edit-page-container {
+        padding-left: 4vw;
+    }
+}
+
+
+

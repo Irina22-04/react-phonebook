@@ -1,0 +1,71 @@
+.button-edit-structure.ui.button {
+    height: .8rem;
+    line-height: .025rem;
+    display: none;
+    background-color: #00b5ad;
+}
+
+.set-department .ui.button {
+    display: block;
+}
+
+.button-edit-structure.button:hover {
+    background-color: olive;
+}
+
+.set-department {
+    color: olive;
+}
+
+.edit-structure-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.edit-structure-buttons-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.folder-name {
+    margin-right: 5px;
+}
+
+@media (max-width: 1000px) {
+    .sc-AxiKw.eGDTjn.set-department {
+        flex-direction: column;
+        height: auto;
+    }
+}
+
+@media (max-width: 720px) {
+    .sc-AxiKw.eGDTjn {
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .edit-structure-buttons {
+        flex-direction: column;
+    }
+
+    .structure {
+        padding-right: 2%;
+    }
+
+    .folder-name {
+        width: 200px;
+    }
+
+    .structure .iFYlyy {
+        font-size: 14px;
+    }
+
+    .edit-structure-buttons-row {
+        margin-bottom: 1vh;
+    }
+
+    .ui.button.button-edit-structure {
+        width: 115.5px;
+    }
+}

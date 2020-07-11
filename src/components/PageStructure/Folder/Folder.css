@@ -1,0 +1,99 @@
+.folder {
+    font-size: 18px;
+    display: inline-block;
+    margin-left: 30px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.sign {
+    display: inline-block;
+    margin-left: -10px;
+}
+
+.folders-wrapper {
+    margin-left: 30px;
+}
+
+.set-department {
+    font-weight: bold;
+}
+
+.name-wrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 6px;
+}
+
+.sign {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-enter {
+    transform: translateX(-50%);
+}
+
+.item-enter-active {
+    transform: translateX(0);
+    transition: transform 200ms ease-in;
+}
+
+.item-exit {
+    transform: translateX(0);
+}
+
+.item-exit-active {
+    transform: translateX(-50%);
+    transition: transform 200ms ease-in;
+}
+
+.structure > .folder:after {
+    display: none
+}
+
+.structure > .folder:before {
+    display: none
+}
+
+@media (max-width: 1100px) {
+    .name-wrapper {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 720px) {
+    .folder {
+        width: 100%;
+        min-width: 320px;
+        max-width: 400px;
+    }
+
+    .folders-wrapper {
+        margin-left: 15px;
+    }
+
+    .folder {
+        margin-left: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .folder {
+        font-size: 16px;
+        width: 100%;
+        margin-left: 10px;
+        min-width: 200px;
+        max-width: 200px;
+    }
+
+    .folders-wrapper {
+        margin-left: 10px;
+    }
+}
+

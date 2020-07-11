@@ -1,0 +1,62 @@
+.authorisation {
+    width: 30vw;
+    max-width: 345px;
+    min-width: 300px;
+    position: relative;
+}
+
+.authorisation-div {
+    border: 1px solid olive;
+    padding: .5vw;
+    border-radius: 5px;
+    font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 1vw;
+    right: 1vw;
+    z-index: 10;
+    background-color: white;
+}
+
+.authorisation-header {
+    font-size: 1.3rem;
+    color: olive;
+    margin-bottom: 20px;
+}
+
+.authorisation-inputs {
+    margin-bottom: 1vw;
+    margin-top: 1vw;
+}
+
+.authorisation span {
+    color: red;
+    position: absolute;
+    bottom: -16px;
+}
+
+.form-title {
+    font-size: 1.2rem;
+}
+
+.authorisation-inputs .input {
+    margin-bottom: 15px;
+}
+
+.field-wrapper {
+    position: relative;
+}
+
+.request-error.authorisation-error {
+    font-size: 16px;
+    position: absolute;
+    top: 25px;
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+@media (max-width: 1000px) {
+    .request-error.authorisation-error {
+        padding-top: 0;
+    }
+}

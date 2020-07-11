@@ -1,0 +1,747 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="page-container"
+  onClick={[Function]}
+>
+  <div
+    className="search-field"
+  >
+    <div
+      className="search-field"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div>
+          <div
+            className="search-name"
+          >
+            Поиск контакта
+          </div>
+          <div
+            className="ui fluid left icon input search-input"
+          >
+            <input
+              disabled={false}
+              maxLength="40"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="Введите имя"
+              type="text"
+              value=""
+            />
+            <i
+              aria-hidden="true"
+              className="users icon"
+              onClick={[Function]}
+            />
+          </div>
+        </div>
+        <div
+          className="ui buttons search-contacts-buttons"
+        >
+          <button
+            className="ui disabled button"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            Очистить
+          </button>
+          <div
+            className="or"
+            data-text=""
+          />
+          <button
+            className="ui positive disabled button"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex={-1}
+            type="submit"
+          >
+            Искать
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button"
+    onClick={[Function]}
+  >
+    Все
+  </button>
+  <div
+    className="edit-user-page"
+  >
+    <div>
+      <div
+        className="contact-wrapper"
+        id={104}
+      >
+        <div
+          className="user-name"
+        >
+          Дмитриевич Дмитрий Дмитриевич
+        </div>
+        <div
+          className="edit-user-buttons"
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui button"
+              id={104}
+              onClick={[Function]}
+              type="button"
+            >
+              Удалить
+            </button>
+            <div
+              className="or"
+              data-text=""
+            />
+            <a
+              href="/editUser/104"
+              onClick={[Function]}
+            >
+              <button
+                className="ui positive button"
+                onClick={[Function]}
+                type="button"
+              >
+                Редактировать
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="contact-wrapper"
+        id={109}
+      >
+        <div
+          className="user-name"
+        >
+          Михайлов Михаил Михайлович
+        </div>
+        <div
+          className="edit-user-buttons"
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui button"
+              id={109}
+              onClick={[Function]}
+              type="button"
+            >
+              Удалить
+            </button>
+            <div
+              className="or"
+              data-text=""
+            />
+            <a
+              href="/editUser/109"
+              onClick={[Function]}
+            >
+              <button
+                className="ui positive button"
+                onClick={[Function]}
+                type="button"
+              >
+                Редактировать
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button edit-user-page-button"
+    onClick={[Function]}
+  >
+    Добавить
+  </button>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={1}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={true}
+      aria-disabled={false}
+      className="active item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="pageItem"
+      value={1}
+    >
+      1
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={1}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={1}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;
+
+exports[`PageEditContact button add user should work 1`] = `
+<div
+  className="page-container"
+  onClick={[Function]}
+>
+  <div
+    className="search-field"
+  >
+    <div
+      className="search-field"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div>
+          <div
+            className="search-name"
+          >
+            Поиск контакта
+          </div>
+          <div
+            className="ui fluid left icon input search-input"
+          >
+            <input
+              disabled={false}
+              maxLength="40"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="Введите имя"
+              type="text"
+              value=""
+            />
+            <i
+              aria-hidden="true"
+              className="users icon"
+              onClick={[Function]}
+            />
+          </div>
+        </div>
+        <div
+          className="ui buttons search-contacts-buttons"
+        >
+          <button
+            className="ui disabled button"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            Очистить
+          </button>
+          <div
+            className="or"
+            data-text=""
+          />
+          <button
+            className="ui positive disabled button"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex={-1}
+            type="submit"
+          >
+            Искать
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button"
+    onClick={[Function]}
+  >
+    Все
+  </button>
+  <div
+    className="edit-user-page"
+  >
+    <div>
+      <div
+        className="contact-wrapper"
+        id={104}
+      >
+        <div
+          className="user-name"
+        >
+          Дмитриевич Дмитрий Дмитриевич
+        </div>
+        <div
+          className="edit-user-buttons"
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui button"
+              id={104}
+              onClick={[Function]}
+              type="button"
+            >
+              Удалить
+            </button>
+            <div
+              className="or"
+              data-text=""
+            />
+            <a
+              href="/editUser/104"
+              onClick={[Function]}
+            >
+              <button
+                className="ui positive button"
+                onClick={[Function]}
+                type="button"
+              >
+                Редактировать
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="contact-wrapper"
+        id={109}
+      >
+        <div
+          className="user-name"
+        >
+          Михайлов Михаил Михайлович
+        </div>
+        <div
+          className="edit-user-buttons"
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui button"
+              id={109}
+              onClick={[Function]}
+              type="button"
+            >
+              Удалить
+            </button>
+            <div
+              className="or"
+              data-text=""
+            />
+            <a
+              href="/editUser/109"
+              onClick={[Function]}
+            >
+              <button
+                className="ui positive button"
+                onClick={[Function]}
+                type="button"
+              >
+                Редактировать
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="ui small disabled button all-users-button edit-user-page-button"
+    disabled={true}
+    onClick={[Function]}
+    tabIndex={-1}
+  >
+    Добавить
+  </button>
+  <div
+    className="ui active transition visible inverted dimmer"
+    onClick={[Function]}
+  >
+    <div
+      className="content"
+    >
+      <div
+        className="ui inverted loader"
+      />
+    </div>
+  </div>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={1}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={true}
+      aria-disabled={false}
+      className="active item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="pageItem"
+      value={1}
+    >
+      1
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={1}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={1}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;
+
+exports[`PageEditContact button edit user should work 1`] = `
+<div
+  className="page-container"
+  onClick={[Function]}
+>
+  <div
+    className="search-field"
+  >
+    <div
+      className="search-field"
+    >
+      <form
+        onSubmit={[Function]}
+      >
+        <div>
+          <div
+            className="search-name"
+          >
+            Поиск контакта
+          </div>
+          <div
+            className="ui fluid left icon input search-input"
+          >
+            <input
+              disabled={false}
+              maxLength="40"
+              onBlur={[Function]}
+              onChange={[Function]}
+              onFocus={[Function]}
+              placeholder="Введите имя"
+              type="text"
+              value=""
+            />
+            <i
+              aria-hidden="true"
+              className="users icon"
+              onClick={[Function]}
+            />
+          </div>
+        </div>
+        <div
+          className="ui buttons search-contacts-buttons"
+        >
+          <button
+            className="ui disabled button"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex={-1}
+            type="button"
+          >
+            Очистить
+          </button>
+          <div
+            className="or"
+            data-text=""
+          />
+          <button
+            className="ui positive disabled button"
+            disabled={true}
+            onClick={[Function]}
+            tabIndex={-1}
+            type="submit"
+          >
+            Искать
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button"
+    onClick={[Function]}
+  >
+    Все
+  </button>
+  <div
+    className="edit-user-page"
+  >
+    <div>
+      <div
+        className="contact-wrapper"
+        id={104}
+      >
+        <div
+          className="user-name"
+        >
+          Дмитриевич Дмитрий Дмитриевич
+        </div>
+        <div
+          className="edit-user-buttons"
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui button"
+              id={104}
+              onClick={[Function]}
+              type="button"
+            >
+              Удалить
+            </button>
+            <div
+              className="or"
+              data-text=""
+            />
+            <a
+              href="/editUser/104"
+              onClick={[Function]}
+            >
+              <button
+                className="ui positive button"
+                onClick={[Function]}
+                type="button"
+              >
+                Редактировать
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        className="contact-wrapper"
+        id={109}
+      >
+        <div
+          className="user-name"
+        >
+          Михайлов Михаил Михайлович
+        </div>
+        <div
+          className="edit-user-buttons"
+        >
+          <div
+            className="ui buttons"
+          >
+            <button
+              className="ui button"
+              id={109}
+              onClick={[Function]}
+              type="button"
+            >
+              Удалить
+            </button>
+            <div
+              className="or"
+              data-text=""
+            />
+            <a
+              href="/editUser/109"
+              onClick={[Function]}
+            >
+              <button
+                className="ui positive button"
+                onClick={[Function]}
+                type="button"
+              >
+                Редактировать
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button
+    className="ui small button all-users-button edit-user-page-button"
+    onClick={[Function]}
+  >
+    Добавить
+  </button>
+  <div
+    aria-label="Pagination Navigation"
+    className="ui pagination menu"
+    role="navigation"
+  >
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="First item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="firstItem"
+      value={1}
+    >
+      «
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Previous item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="prevItem"
+      value={1}
+    >
+      ⟨
+    </a>
+    <a
+      aria-current={true}
+      aria-disabled={false}
+      className="active item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="pageItem"
+      value={1}
+    >
+      1
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Next item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="nextItem"
+      value={1}
+    >
+      ⟩
+    </a>
+    <a
+      aria-current={false}
+      aria-disabled={false}
+      aria-label="Last item"
+      className="item"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      tabIndex={0}
+      type="lastItem"
+      value={1}
+    >
+      »
+    </a>
+  </div>
+</div>
+`;
