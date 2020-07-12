@@ -6,6 +6,37 @@
     max-width: 500px;
 }
 
+.department-wrapper {
+    position: relative;
+    cursor: pointer;
+}
+
+.department-wrapper::before {
+    position: absolute;
+    left: -15px;
+    top: 0;
+    content: '';
+    display: block;
+    border-left: 1px solid #ddd;
+    height: 1em;
+    border-bottom: 1px solid #ddd;
+    width: 10px;
+}
+
+.department-wrapper::after {
+    position: absolute;
+    left: -15px;
+    bottom: -7px;
+    content: '';
+    display: block;
+    border-left: 1px solid #ddd;
+    height: 100%;
+}
+
+.department-wrapper:last-child::after {
+    display: none
+}
+
 .sign {
     display: inline-block;
     margin-left: -10px;

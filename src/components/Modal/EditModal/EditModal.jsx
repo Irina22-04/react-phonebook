@@ -1,6 +1,5 @@
 import React from "react";
 import {connect} from "react-redux";
-import styled from "styled-components";
 import PropTypes from "prop-types";
 import {Button, Confirm, Input} from "semantic-ui-react";
 import {FieldControl, FieldGroup, FormBuilder, Validators,} from "react-reactive-form";
@@ -12,19 +11,6 @@ import Loader from "../../Loader/Loader";
 import "./EditModal.css";
 
 
-const BackGround = styled('div')`
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.6);
-    top: 0;
-    left: 0;
-`;
 const TextInput = ({handler, touched, hasError, meta}) => (
     <div className={'edit-structure-input'}>
         <Input fluid placeholder={`Введите ${meta.label}`} {...handler()}/>
@@ -157,9 +143,9 @@ class EditModal extends React.PureComponent {
 
     render() {
         return (
-            <BackGround>
+            <div className={'backGround'} >
                 {this.showForm()}
-            </BackGround>
+            </div>
         )
     }
 }

@@ -1,7 +1,6 @@
 import React from "react";
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
-import styled from "styled-components";
 import {Confirm, Icon} from "semantic-ui-react";
 import {get} from "lodash";
 import {toast} from "react-toastify";
@@ -19,27 +18,6 @@ import {
 } from "../../../store/actions/departmentActions";
 import "./EditStructureStep.css";
 
-
-const NameWrapper = styled('div')`
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    cursor: pointer;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
-   
-`;
-
-const NameWithActions = styled('div')`
-    display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
-    height: 2rem;
-`;
-
-const Children = styled('div')`
-    margin-left: 20px
-`;
 
 class EditStructureStep extends React.PureComponent {
 
@@ -82,9 +60,9 @@ class EditStructureStep extends React.PureComponent {
         const {children = []} = this.props.step;
         if (isOpen) {
             return (
-                <Children>
+                <div className={'children'}>
                     {children.map((child, index) => <EditStructureStepComponent key={index} step={child}/>)}
-                </Children>
+                </div>
             )
         }
         return null
@@ -169,19 +147,20 @@ class EditStructureStep extends React.PureComponent {
         const department = Number(this.props.department.department);
         return (
             <div>
-                <NameWithActions id={step.id} onClick={this.selectStep}
-                                 className={department === step.id ? "set-department" : ""}>
+                <div id={step.id} onClick={this.selectStep}
+                                 className={department === step.id ? "set-department name-with-actions" :
+                                     "name-with-actions"}>
 
-                    <NameWrapper onClick={this.openChildren}>
+                    <div className={'name-wrapper'} onClick={this.openChildren}>
                         {this.checkArrow()}
                         <div className={'folder-name'}>{step.name}</div>
-                    </NameWrapper>
+                    </div>
 
                     <EditStructureButtons step={this.props.step} cbHandleCarry={this.handleCarry}
                                           cbCheckEmployees={this.checkEmployees} cbHandleEdit={this.handleEdit}
                                           cbHandleAdd={this.handleAdd}/>
 
-                </NameWithActions>
+                </div>
                 {this.renderChildren()}
 
                 {this.showBanDelete()}

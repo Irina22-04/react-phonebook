@@ -1,40 +1,11 @@
 import React from "react";
 import {connect} from "react-redux";
 import {CSSTransition, TransitionGroup} from "react-transition-group";
-import styled from "styled-components";
 import PropTypes from "prop-types";
 
 import {getEmployeesByStructureTry} from "../../../store/actions/employeesListActions";
 import {setDepartment} from "../../../store/actions/departmentActions";
 import "./Folder.css";
-
-const DepartmentWrapper = styled.div`
-    position: relative;
-    cursor: pointer;
-        &::before{
-            position: absolute;
-            left: -15px;
-            top: 0px;
-            content: '';
-            display: block;
-            border-left: 1px solid #ddd;
-            height: 1em;
-            border-bottom: 1px solid #ddd;
-            width: 10px;
-        }
-        &::after{
-            position: absolute;
-            left: -15px;
-            bottom: -7px;
-            content: '';
-            display: block;
-            border-left: 1px solid #ddd;
-            height: 100%;
-        }
-        &:last-child{
-          &:after{ display: none }
-        }
-`;
 
 class prevFolder extends React.PureComponent {
 
@@ -120,7 +91,7 @@ class prevFolder extends React.PureComponent {
         const departmentName = this.props.department.structure ? this.props.department.structure.find(item => item.id === this.props.folderId) : null;
 
         return this.props.department.status <= 1 ? null : (
-            <DepartmentWrapper className={"folder"}>
+            <div className={"department-wrapper folder"}>
                 <div
                     id={this.props.folderId}
                     className={department === this.props.folderId ? "set-department name-wrapper" : "name-wrapper"}
@@ -131,7 +102,7 @@ class prevFolder extends React.PureComponent {
                 <TransitionGroup className={"folders-wrapper"}>
                     {this.showChildren()}
                 </TransitionGroup>
-            </DepartmentWrapper>
+            </div>
         )
     }
 }
