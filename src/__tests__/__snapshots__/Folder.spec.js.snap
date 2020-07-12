@@ -2,7 +2,7 @@
 
 exports[` 1`] = `
 <div
-  className="sc-AxjAm ghQxeu folder"
+  className="department-wrapper folder"
 >
   <div
     className="name-wrapper"
@@ -19,7 +19,7 @@ exports[` 1`] = `
 
 exports[`PageStructure onClick should work 1`] = `
 <div
-  className="sc-AxjAm ghQxeu folder"
+  className="department-wrapper folder"
 >
   <div
     className="name-wrapper"
